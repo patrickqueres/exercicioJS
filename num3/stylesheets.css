@@ -1,0 +1,113 @@
+
+body {
+	background-color: #3F3F40;
+}
+
+.quadradinho{
+	width: 100px;
+	height: 100px;
+	background: #30406B;
+	font-size: 80px;
+	color: #24BA1C;
+	cursor: pointer;
+	font-family: "Arial";
+}
+.tabela{
+	background: #FFE0D1;
+}
+
+.principal {
+	vertical-align: middle;
+	position: relative;
+}
+
+#site{
+	width:1000px;
+	height:700px;
+	margin-top:0;
+	margin-left:auto;
+	margin-bottom:0;
+	margin-right:auto;
+}
+
+#header{
+	width:1000px;
+	height:140px;
+}
+
+#conteudo{
+	width:1000px;
+	height:400px;
+	background-color:#92a2af;	
+}	
+
+#footer{
+	width:1000px;
+	height:30px;
+	background-color:#cc6132;
+	text-align:right;
+}
+
+#conteudo-left{
+	width:400px;
+	height:400px;
+	float:left;
+	background-color:black;
+}
+
+#conteudo-right{
+	width:1000px;
+	height:400px;
+	float:left;
+	background-color:#734B8F;
+}
+
+#logo{
+	width:250px;
+	height:140px;
+	float:left;
+	background-color:#0090C0;
+	text-align:center;
+}
+
+#emblema{
+	width:750px;
+	height:140px;
+	float:left;
+	background-color:#0090C0;
+	text-align:center;
+}
+
+#txtemblema{
+	font-family: "Tahoma", Tahoma;
+	color:#ffffff;
+	text-align:center;
+	
+}
+
+#txtfooter{
+	font-family: "Tahoma", Tahoma;
+	/*background-color:#215286;*/
+	color:#ffffff;
+	text-align:right;
+	font-size:small;
+	align:center;
+	padding-right:10px;
+	padding-top:5px;
+}
+
+
+
+
+a:link {
+	color: white;
+}
+a:visited {
+	color: white;
+}
+a:hover {
+	color: white;
+}
+a:active {
+	color: white;
+}

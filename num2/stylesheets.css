@@ -1,0 +1,110 @@
+
+
+body {
+	background-color: #1BA5B8;
+}
+
+#site{
+	width:1000px;
+	height:700px;
+	margin-top:0;
+	margin-left:auto;
+	margin-bottom:0;
+	margin-right:auto;
+}
+
+#header{
+	width:1000px;
+	height:100px;
+	/*background-color:green;*/
+}
+
+#conteudo{
+	width:1000px;
+	height:500px;
+	background-color:#012D41;	
+}	
+
+#footer{
+	width:1000px;
+	height:30px;
+	background-color:#DAECF3;
+	text-align:right;
+}
+
+#conteudo-left{
+	width:400px;
+	height:500px;
+	float:left;
+	background-color:black;
+}
+
+#conteudo-right{
+	width:1000px;
+	height:500px;
+	float:left;
+	background-color:#012D41;
+}
+
+#logo{
+	width:1000px;
+	height:100px;
+	float:left;
+	background-color:#FF404E;
+	text-align:center;
+}
+
+
+#txtemblema{
+	font-family: "Tahoma", Tahoma;
+	/**background-color:#215286;*/
+	color:#ffffff;
+	text-align:center;
+}
+
+#txtfooter{
+	font-family: "Tahoma", Tahoma;
+	/*background-color:#215286;*/
+	color: black;
+	text-align:right;
+	font-size:small;
+	align:center;
+}
+
+
+#titulo{
+	font-family: "Tahoma", Tahoma;
+	color:#ffffff;
+	text-align:center;
+	font-size:big;
+	align:center;
+}
+
+.texto{
+	font-family: "Tahoma", Tahoma;
+	color:#ffffff;
+	text-align:center;
+	font-size:small;
+	align:center;
+}
+
+.triangulo{
+	font-family: "Tahoma", Tahoma;
+	color:#ffffff;
+	text-align:left;
+	font-size:small;
+	align:left;
+}
+
+a:link {
+	color: white;
+}
+a:visited {
+	color: white;
+}
+a:hover {
+	color: white;
+}
+a:active {
+	color: white;
+}

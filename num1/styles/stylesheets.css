@@ -1,0 +1,121 @@
+
+
+body {
+    background-color: #740001;
+}
+
+#site{
+	width:1000px;
+	height:700px;
+	margin-top:0;
+	margin-left:auto;
+	margin-bottom:0;
+	margin-right:auto;
+	
+}
+
+#header{
+	width:1000px;
+	height:100px;
+	/*background-color:green;*/
+	}
+#conteudo{
+	width:1000px;
+	height:500px;
+	background-color:#92a2af;	
+}	
+#footer{
+	width:1000px;
+	height:30px;
+	background-color:#cc6132;
+	text-align:right;
+	
+	}
+	
+#conteudo-left{
+	width:400px;
+	height:500px;
+	/* O atributo Float é utilizado para fazermos o nosso bloco(div) literalmente flutue e se posicione onde queremos na página, quando escolhemos left, dizemos que esse bloco irá se posicionar na parte esquerda da página */
+	float:left;
+	background-color:black;
+	
+	}
+	
+#conteudo-right{
+	width:1000px;
+	height:500px;
+	float:left;
+	background-color:#5c5c5c;
+	}
+	
+#logo{
+	width:1000px;
+	height:100px;
+	float:left;
+	background-color:#eeba30;
+	text-align:center;
+	}
+
+	
+#txtemblema{
+	font-family: "Tahoma", Tahoma;
+	/**background-color:#215286;*/
+	color:#ffffff;
+	text-align:center;
+	}
+	
+#txtfooter{
+	font-family: "Tahoma", Tahoma;
+	/*background-color:#215286;*/
+	color:#ffffff;
+	text-align:right;
+	font-size:small;
+	align:center;
+	padding-right:10px;
+	padding-top:5px;
+	}
+	
+#txtmenu{
+	font-family: "Tahoma", Tahoma;
+	/*background-color:#215286;*/
+	color:#ffffff;
+	text-align:center;
+	font-size:small;
+	align:center;
+	}
+	
+#titulo{
+	font-family: "Tahoma", Tahoma;
+	color:#ffffff;
+	text-align:center;
+	font-size:big;
+	align:center;
+	padding-right:20px;
+	}
+	
+#texto{
+	font-family: "Tahoma", Tahoma;
+	color:#ffffff;
+	text-align:center;
+	font-size:small;
+	align:center;
+	}
+	
+#teste{
+	vertical-align: middle;
+	
+	}	
+
+	
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: white;
+}
+a:active {
+    color: white;
+}

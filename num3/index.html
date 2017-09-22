@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+	<title>Jogo da velha</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel=STYLESHEET href="stylesheets.css" type="text/css">
+</head>
+<body>
+	<div id="site">
+		<div id="header">
+			<div id="logo">
+				<img src="images/logo.jpg" title="Jogo da velha"/>
+			</div>
+			<div id="emblema">
+				<h1 id="txtemblema">Jogo da velha</h1>
+				<h3 id="txtmenu"></h1>
+				</div>
+			</div>
+			<br>	
+			<div id="conteudo">
+				<div id="conteudo-right">
+					<br><br>
+					<table class="tabela" align="center">
+						<tr>
+							<td align="center" valign="middle" id="cel11" class="quadradinho" onclick="marca(this.id);verif();"></td>
+							<td align="center" valign="middle" id="cel12" class="quadradinho" onclick="marca(this.id);verif();"></td>
+							<td align="center" valign="middle" id="cel13" class="quadradinho" onclick="marca(this.id);verif();"></td>
+						</tr>
+						<tr>
+							<td align="center" valign="middle" id="cel21" class="quadradinho" onclick="marca(this.id);verif();"></td>
+							<td align="center" valign="middle" id="cel22" class="quadradinho" onclick="marca(this.id);verif();"></td>
+							<td align="center" valign="middle" id="cel23" class="quadradinho" onclick="marca(this.id);verif();"></td>
+						</tr>
+						<tr>
+							<td align="center" valign="middle" id="cel31" class="quadradinho" onclick="marca(this.id);verif();"></td>
+							<td align="center" valign="middle" id="cel32" class="quadradinho" onclick="marca(this.id);verif();"></td>
+							<td align="center" valign="middle" id="cel33" class="quadradinho" onclick="marca(this.id);verif();"></td>
+						</tr>
+					</table>
+					<br>
+					<center><input type="button" name="limpar" value="Novo jogo" onclick="limpa();" /></center><br>
+				</div>
+			</div>
+			
+			<div id="footer">
+				<p id="txtfooter">Desenvolvido por Patrick</p>
+			</div>
+		</div>
+		<script src="meuscript.js"></script>
+	</body>
+	</html>
